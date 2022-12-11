@@ -347,6 +347,64 @@ ul {
   .container {
     width: var(--container-width-md);
   }
+
+  h3 {
+    font-size: 1.5rem;
+    margin: 0 10px;
+  }
+
+  a {
+    font-size: 0.8rem;
+    line-height: 1;
+  }
+
+  .navbar {
+    right: 2%;
+    height: 60%;
+  }
+
+  .greeting {
+    left: 30%;
+  }
+
+  .search-engine {
+    width: 55%;
+    left: 21%;
+    height: 40px;
+  }
+
+  .search-input {
+    width: 60%;
+  }
+
+  .box {
+    left: 25%;
+  }
+
+  .la-logo {
+    width: 55px;
+  }
+
+  .bdo-logo {
+    width: 55px;
+  }
+
+  .notes-logo {
+    width: 55px;
+  }
+
+  .bigbox {
+    width: 80%;
+    left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .notes-box1 {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 /* Mobile */
@@ -356,5 +414,122 @@ ul {
 @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+
+  a {
+    line-height: 0.8;
+  }
+
+  .setting {
+    width: 30px;
+  }
+
+  .navbar {
+    top: 10%;
+    right: 2%;
+    height: 60%;
+  }
+
+  .navbar img {
+    width: 20px;
+  }
+
+  .nav-logo {
+    width: 15px;
+  }
+
+  .greeting {
+    left: 30%;
+  }
+
+  #date {
+    font-size: 1.1rem;
+  }
+
+  #clock {
+    font-size: 1.3rem;
+  }
+
+  .search-engine {
+    width: 70%;
+    left: 15%;
+    height: 30px;
+  }
+
+  .search-input {
+    width: 60%;
+    font-size: 0.9rem;
+  }
+
+  .search-input ::placeholder {
+    font-size: 0.8rem;
+  }
+
+  #select {
+    width: 100px;
+    font-size: 0.7rem;
+  }
+
+  .search-engine button {
+    width: 50px;
+  }
+
+  .search-engine button img {
+    width: 20px;
+  }
+
+  .box {
+    left: 4%;
+  }
+
+  .la-logo {
+    width: 45px;
+  }
+
+  .bdo-logo {
+    width: 45px;
+  }
+
+  .notes-logo {
+    width: 45px;
+    padding: 10px;
+  }
+
+  .bigbox {
+    width: 80%;
+    left: 10%;
+    bottom: 18%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    line-height: 0.5;
+  }
+
+  .notes-box1 {
+    width: 150px;
+    height: 170px;
+    font-size: 13px;
+    line-height: 0.9;
+    padding: 2px 5px;
+  }
+
+  .bg-container ul {
+    bottom: 7px;
+    left: 50%;
+  }
+
+  .bg-container ul li video {
+    width: 70px;
+    transition: all ease 500ms;
+    border-radius: 20px;
   }
 }
