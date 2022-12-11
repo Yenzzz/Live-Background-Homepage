@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Live Background Homepage</title>
+
+        <!-- Google Fonts -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Sacramento&display=swap"
+            rel="stylesheet" />
+
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+
+        <div class="bg-container">
+            <video src="" class="slider" autoplay loop -->
+                muted></video>
+
+            <div class="overlay"></div>
+
+            <div class="bg-setting">
+                <img class="setting" onclick="showSlides"
+                    src="./assets/palette.png" alt="">
+            </div>
+        </div>
+
+        <!-- Navbar -->
+
+        <nav>
+
+            <div class="nav-logo">
+                <a href="index.html"><img src="./assets/island.png" alt=""></a>
+            </div>
+            <div class="navbar">
+                <a href="https://www.twitch.tv/directory/game/Lost%20Ark"><img
+                        class="twitch-logo" src="./assets/twitch3.png" alt=""></a>
+                <a href="https://www.reddit.com/"><img
+                        class="twitch-logo" src="./assets/reddit6.png" alt=""></a>
+                <a href="https://www.youtube.com/"><img
+                        class="twitch-logo" src="./assets/youtube6.png" alt=""></a>
+                <a href="https://mail.google.com/mail/u/1/#inbox"><img
+                        class="twitch-logo" src="./assets/mail.png" alt=""></a>
+            </div>
+        </nav>
+
+        <!-- Greeting and Clock -->
+
+        <div class="greeting">
+            <h1 id="greeting"></h1>
+            <p id="date"></p>
+            <p id="clock"></p>
+
+        </div>
+
+        <!-- Search Engine -->
+
+        <div class="container search-engine">
+            <select name="searchengine" id="select">
+                <option value="duck">Duckduckgo</option>
+                <option value="google">Google</option>
+            </select>
+            <input type="text" class="search-input" autocomplete="off"
+                autofocus="true" placeholder="Search the web...">
+            <button class="click-search"><img
+                    src="./assets/magnifying-glass4.png" alt=""
+                    class="submit-icon"></button>
+        </div>
+
+        <!-- Icons -->
+
+        <div class="box">
+            <a href="lostark.html"><img class="la-logo"
+                    src="./assets/sleepkoko.png" alt=""></a>
+            <a href="bdo.html"><img class="bdo-logo" src="./assets/bsbdo.PNG"
+                    alt=""></a>
+            <a href="webdev.html"><img class="notes-logo" src="./assets/pin.png"
+                    alt=""></a>
+        </div>
+
+
+
+        <script src="./scripts/vid.js"></script>
+    </body>
+</html>
