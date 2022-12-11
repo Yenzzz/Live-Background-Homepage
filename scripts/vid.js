@@ -5,8 +5,8 @@ const videoArray = [
   ".\\video-bg\\winter.mp4",
   ".\\video-bg\\amapola.mp4",
   ".\\video-bg\\cosmos.mp4",
-  ".\\video-bg\\lilies.mp4",
-  ".\\video-bg\\snow.mp4",
+  ".\\video-bg\\tree.mp4",
+  ".\\video-bg\\tulips.mp4",
 ];
 setBackground(videoArray[videoIndex]);
 const bgContainer = document.querySelector(".bg-container");
