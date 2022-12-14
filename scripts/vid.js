@@ -64,7 +64,8 @@ function updateClock() {
   let second = currentTime.getSeconds();
 
   // let timeString = hour + ":" + minute + " ";
-  let timeString = `${hour < 13 ? hour : hour - 12}:${minute < 10 ? "0" + minute : minute} ${hour < 12 ? "AM" : "PM"}`;
+  let timeString = `${hour === 0 ? 12 : hour < 13 ? hour : hour - 12}:${minute < 10 ? "0" + minute : minute} ${hour < 12 ? "AM" : "PM"}`;
+
 
   // display the appropriate greeting based on the current time
 
